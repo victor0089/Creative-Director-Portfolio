@@ -1,0 +1,37 @@
+.gallery_area{
+    background: #311E25;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    .single_gallery{
+        .thumb{
+            img{
+                width: 100%;
+            }
+        }
+        .gallery_heading{
+            padding: 20px 0;
+            margin-top: 7px;
+            margin-bottom: 70px;
+            span{
+                color: #fff;
+                font-size: 16px;
+                font-weight: 400;
+                display: block;
+                margin-bottom: 7px;
+            }
+            h4{
+                font-size: 24px;
+                font-weight: 400;
+                color: #DB9A64;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .more_works{
+        a{
+            display: block !important;
+        }
+    }
+}

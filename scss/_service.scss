@@ -1,0 +1,68 @@
+.service_area{
+    background: #3B2930;
+    padding-bottom: 90px;
+    padding-top: 120px;
+    &.colord_bg{
+        background: #311E25;
+    }
+    .section_title{
+
+    }
+    .single_service{
+        border: 1px solid #6B4B40;
+        padding: 45px 30px;
+        margin-bottom: 30px;
+        h3{
+            color: #DB9A64;
+            margin-top: 22px;
+            margin-bottom: 11px;
+            font-weight: 400;
+        }
+        p{
+            font-size: 16px;
+            color: #C9C9C9;
+            line-height: 28px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.service_products{
+    background: #311E25;
+    padding-top: 0px;
+    padding-bottom: 60px;
+    .padding_left {
+        padding-left: 68px;
+        @media #{$mobile_device} {
+            padding-left: 0;
+        }
+        @media #{$tablet_device} {
+            padding-left: 0;
+        }
+    }
+    .service_wrap{
+        margin-bottom: 60px;
+        .thumb{
+            img{
+                width: 100%;
+            }
+        }
+        .service_text{
+            margin: 30px 0;
+            h3{
+                color: #fff;
+                font-size: 36px;
+                font-weight: 400;
+            }
+            p{
+                color: #C9C9C9;
+                font-size: 16px;
+                line-height: 28px;
+                margin: 30px 0;
+            }
+            .boxed-btn3-line {
+                margin-top: 10px;
+            }
+        }
+    }
+}

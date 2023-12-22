@@ -1,0 +1,81 @@
+.listing_details{
+    padding-top: 60px;
+    padding-bottom: 90px;
+    .single_details{
+        margin-bottom: 50px;
+        h3{
+            font-family: $font2;
+            color: #001D38;
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+        p{
+            font-family: $font2;
+            font-size: 16px;
+            color: #4D4D4D;
+            line-height: 28px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        .form-contact{
+            .form-control{
+                height: 50px;
+                @include border-radius(5px);
+                border: 1px solid #C7C7C7;
+                font-family: $font2;
+            }
+            textarea.form-control{
+                height: 116px !important;
+            }
+        }
+        .boxed-btn2{
+            width: 100%;
+        }
+
+        .map_Wrap{
+            .map_inner_info{
+                position: relative;
+                .explorer_info{
+                    position: absolute;
+                    background: #fff;
+                    padding: 30px;
+                    @include border-radius(10px);
+                    right: 30px;
+                    top: 50%;
+                    @include transform(translateY(-50%));
+                    z-index: 8;
+                    max-width: 286px;
+                    h3{
+                        color: #F91842;   
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin-bottom: 0;  
+                        font-family: $font2 ;                       
+                    }
+                    p{
+                        font-family: $font2 ;
+                        font-size: 16px;
+                        color: #727272;
+                        line-height: 26px;
+                        margin-bottom: 0;
+                    }
+                    ul{
+                        li{
+                            font-family: $font2;
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #727272;
+                            i{
+                                color: #FF8DA2;
+                                font-size: 10px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

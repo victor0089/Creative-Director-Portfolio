@@ -1,0 +1,93 @@
+.footer{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/banner/footer_bg.png);
+    p{
+        font-family: $font2 !important;
+    }
+    .footer_top{
+        padding-top: 145px;
+        padding-bottom: 129px;
+        @media #{$mobile_device} {
+            padding-top: 60px;
+            padding-bottom: 30px;
+        }
+        .lets_talk{
+            h3{
+                font-size: 46px;
+                margin-bottom: 20px;
+                color: #fff;
+                @media #{$mobile_device} {
+                    font-size: 28px;
+                    margin-bottom: 20px;
+                }
+                @media #{$tablet_device} {
+                    font-size: 40px;
+                }
+                @media #{$mid_device} {
+                    font-size: 38px;
+                }
+                a{
+                    color: #DB9A64;
+                }
+            }
+            p{
+                font-size:16px ;
+                line-height: 28px;
+                color: #fff;
+            }
+            margin-bottom: 95px;
+        }
+        .single_links{
+            border: 1px solid #7A5444;
+            padding:25px 30px;
+            cursor: pointer;
+            @include transition(.3s);
+            @media #{$mobile_device}{
+                margin-bottom: 10px;
+            }
+            @media #{$tablet_device}{
+                padding: 25px 10px;
+            }
+            span{
+                color: #fff;
+                font-size: 24px;
+                font-weight: 400;
+            }
+            a{
+                @include transition(.3s);
+                i{
+                    color: #DB9A64;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+                background: #CCAD85;
+                border: 1px solid #CCAD85;
+                color: #fff;
+                a{
+                    i{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .copy-right_text{
+        padding-bottom: 30px;
+        .copy_right{
+            font-size: 14px;
+            color: #919191;
+            margin-bottom: 0;
+            font-weight: 500;
+            @media #{$mobile_device} {
+                font-size: 13px;
+            }
+            a{
+                color: #DB9A64;
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.download_area{
+    padding: 110px 0 90px 0;
+    background: #311E25;
+    @media #{$mobile_device}{
+        padding: 90px 0;
+    }
+    .download_text{
+        h3{
+            font-size: 36px;
+            color: #fff;
+            line-height: 46px;
+            margin-bottom: 60px;
+            @media #{$mobile_device} {
+            font-size: 25px;
+            color: #fff;
+            line-height: 40px;
+            margin-bottom: 20px;
+            }
+        }
+    }
+    .download_left{
+        margin-bottom: 30px;
+        p{
+            font-size: 16px;
+            line-height: 28px;
+            color: #C9C9C9;
+            margin: 20px 0;
+        }
+        .boxed-btn3-line{
+            margin-top: 28px;
+        }
+    }
+    .progress_skills{
+        .single_progress{
+            margin-bottom: 33px;
+            .label{
+                margin-bottom: 16px;
+                span{
+                    font-size: 16px;
+                    color: #fff;
+                    font-weight: 400;
+                }
+            }
+            .progress{
+                height: 6px;
+                overflow: hidden;
+                font-size: .75rem;
+                background-color: #FFFFFF;
+                border-radius: 5px;
+                .progress-bar{
+                    background: #DB9A64;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

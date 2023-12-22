@@ -1,0 +1,96 @@
+
+.testimonial_area{
+    // background-image: url(../img/banner/testmonial.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 106px 0 120px 0;
+    background: #3B2930;
+    overflow: hidden;
+    @media #{$mobile_device} {
+        padding: 50px 0;
+    }
+    .single_testmonial{
+        p{
+            color: #fff;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 32px;
+            margin: 34px 0;
+            font-family: $font2;
+            br{
+                @media (min-width: 320px) and (max-width: 1500px) {
+                    display: none;
+                }
+            }
+
+        }
+        .author_name {
+            position: relative;
+            top: 4px;
+            overflow: hidden;
+            padding-left: 13px;
+        }
+        .testmonial_author{
+            .thumb{
+                width: 68px;
+                height: 68px;
+                @include border-radius(50%);
+                float: left;
+            }
+            h3{
+                color: #fff;
+                font-size: 24px;
+                font-weight: 400;
+                margin-bottom: 5px;
+                font-family: $font2;
+                color: #DB9A64;
+            }
+            span{
+                font-size: 13px;
+                font-weight: 400;
+                color: #fff;
+                font-family: $font2;
+            }   
+        }
+    }
+    .owl-carousel .owl-item{
+        opacity: .4;
+        &.active{
+            opacity: 1;
+        }
+    }
+    .owl-carousel .owl-item img {
+        display: inline-block;
+        width: auto;
+    }
+    .owl-carousel .owl-nav div.owl-next {
+        left: auto;
+        right: 0;
+    }
+    .owl-carousel .owl-nav div {
+        right: 57px;
+        top: -28px;
+       left: auto;
+       width: 40px;
+       height: 40px;
+       line-height: 40px;
+       border: 1px solid#7B5645;
+    color:#7B5644 !important;
+    }
+    .owl-carousel .owl-nav div {
+        &:hover{
+            background: #DB9A64;
+            color: #fff !important;
+        }
+    }
+    .owl-carousel .owl-stage-outer {
+        position: relative;
+        overflow: visible;
+        -webkit-transform: translate3d(0,0,0);
+        @media #{$mobile_device} {
+            overflow: hidden;
+        }
+    }
+}
